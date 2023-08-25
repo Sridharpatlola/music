@@ -1,0 +1,20 @@
+name: flute_example
+description: Demonstrates how to use the flute_music_player plugin.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.0
+  flute_music_player: ^0.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/lady.jpeg
+   - assets/music_record.jpeg
+
